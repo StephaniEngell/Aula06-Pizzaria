@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 10%;
+}
+
+.container-right {
+    display: inline-block;
+    background-color: rgba(242, 25, 5);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+.deliveryman {
+    position: relative;
+    top: 20.4%;
+    right: 130px;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+span {
+    color: #F2911B;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    color: #6B6B6B;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+button {
+    background: #F21905;
+    color: #ffffff;
+    width: 150px;
+    height: 52px;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234 , 0.0979959);
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.link-menu {
+    font-weight: 500;
+    font-size: 22px;
+    color: #F21905;
+    cursor: pointer;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-bottom: 150px;
+}
+
+.links-header {
+    font-size: 28px;
+    line-height: 41px;
+    color: #6B6B6B;
+    font-weight: bold;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.button-header {
+    background: #FFC300;
+    font-weight: 500;
+    font-size: 22px;
+    width: 180px;
+    height: 52px;
+    margin-left: 55px;
+}
+
+header {
+    margin: 24px 0 0 100px;
+}
